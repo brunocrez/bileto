@@ -39,6 +39,12 @@
 		"node_modules",
 		"build",
 		"dist",
-		"public"
-	]
+		"public",
+		"*.css"
+	],
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
 }
