@@ -6,8 +6,8 @@ import { SearchInput } from '@/components/SearchInput'
 
 export function Header() {
   return (
-    <header className="w-full bg-gray-900 px-10 py-5">
-      <div className="flex flex-col gap-6 max-w-7xl mx-auto">
+    <header className="w-full bg-gray-900 py-5">
+      <div className="flex flex-col gap-6 max-w-7xl mx-auto px-10">
         <div className="flex justify-between items-center">
           {/* hamburger menu */}
           <div className="lg:hidden cursor-pointer">
